@@ -15,13 +15,28 @@
 <h1>Selenium Test</h1>
   <p>This page contains different webpage elements for use in Selenium automation testing</p>
 
-  <p>Buttons:</p>
-  <button class="button-red">Red</button>
-  <button class="button-green">Green</button>
-  <button class="button-blue">Blue</button>
+  <fieldset>
+    <legend>Buttons:</legend>
+      <button id="st-b0" class="button-red">Red</button>
+      <button id="st-b1" class="button-green">Green</button>
+      <button id="st-b2" class="button-blue">Blue</button>
+  </fieldset>
+  
+  <fieldset>
+    <legend>Search bar:</legend>
+    <input id="st-sb0" type="text" placeholder="Type in here">
+  </fieldset>
+  
 
-  <p>Search bar:</p>
-  <input id="st-sb0" type="text" placeholder="Type in here">
+  <fieldset>
+    <legend>Radio buttons:</legend>
+      <input type="radio" id="st-rb0" name="st-rbset0" checked />
+      <label for="st-rb0">Radio button 0</label>
+      <input type="radio" id="st-rb1" name="st-rbset0"/>
+      <label for="st-rb1">Radio button 1</label>
+      <input type="radio" id="st-rb2" name="st-rbset0"/>
+      <label for="st-rb2">Radio button 2</label>
+  </fieldset>
 
 </body>
 </html>
