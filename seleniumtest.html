@@ -2,6 +2,7 @@
 <html>
 
   <head>
+    <link rel="icon" href="images/favicons/stp_icon.ico">
     <link rel="stylesheet" type="text/css" href="./main.css">
     <script src="seleniumtest.js" defer></script>
     <title>Selenium Test Page</title>
@@ -16,13 +17,15 @@
 <h1>Selenium Test</h1>
   <p>This page contains different webpage elements for use in Selenium automation testing</p>
 
+  <!--Buttons-->
   <fieldset>
     <legend>Buttons:</legend>
       <button id="st-b0" class="button-red">Red</button>
       <button id="st-b1" class="button-green">Green</button>
       <button id="st-b2" class="button-blue">Blue</button>
   </fieldset>
-  
+
+  <!--Search bars-->
   <fieldset>
     <legend>Search bars:</legend>
     <p>Search bar 1:</p>
@@ -31,6 +34,7 @@
     <input id="st-sb1" type="text" placeholder="Type in here">
   </fieldset>
 
+  <!--Radio buttons-->
   <fieldset>
     <legend>Radio buttons:</legend>
       <input type="radio" id="st-rb0" name="st-rbset0" checked />
@@ -41,6 +45,7 @@
       <label for="st-rb2">Radio button 2</label>
   </fieldset>
 
+  <!--Select list-->
   <fieldset>
     <legend>Select:</legend>
       <select id="st-sl0" name="st-sl-full0">
@@ -52,7 +57,7 @@
       </select>
   </fieldset>
 
-  <!--Do something with the login?-->
+  <!--Login form-->
   <fieldset>
     <legend>Login form:</legend>
       <form>
@@ -65,10 +70,13 @@
         <button id="st-lf0-s0" type="submit">Log in</button>
       </form>
   </fieldset>
+  
+  <!--Do something with the login?-->
 
+  <!--Image-->
   <fieldset>
     <legend>Image:</legend>
-      <img src="Bober.png" alt="Bober">
+      <img src="images/selenium_test_page/Bober.png" alt="Bober">
   </fieldset>
 
 </body>
