@@ -2,7 +2,7 @@
 <html>
 
   <head>
-    <link rel="icon" href="images/favicons/stp_icon.ico">
+    <link rel="icon" href="assets/images/favicons/stp_icon.ico">
     <link rel="stylesheet" type="text/css" href="./main.css">
     <script src="seleniumtest.js" defer></script>
     <title>Selenium Test Page</title>
@@ -76,7 +76,7 @@
   <!--Image-->
   <fieldset>
     <legend>Image:</legend>
-      <img src="images/selenium_test_page/Bober.png" alt="Bober">
+      <img src="assets/images/selenium_test_page/Bober.png" alt="Bober">
   </fieldset>
 
   <!--Table-->
@@ -140,14 +140,12 @@
   <!--Audio-->
   <fieldset>
     <legend>Audio:</legend>
-      <audio control>
-        <p>MP3:</p>
-        <source src="test.mp3" type="audio/mpeg">
-        <p>OGG:</p>
-        <source src="test.ogg" type="audio/ogg">
-        <p>WAV:</p>
-        <source src="test.wav" type="audio/wav">
-      </audio>
+      <p>.mp3 (audio/mpeg):</p>
+      <audio controls src="assets/audio/test.mp3" type="audio/mpeg"></audio>
+      <p>.ogg (audio/ogg):</p>
+      <audio controls src="assets/audio/test.ogg" type="audio/ogg"></audio>
+      <p>.wav (audio/wav):</p>
+      <audio controls src="assets/audio/test.wav" type="audio/wav"></audio>
   </fieldset>
 
 </body>
