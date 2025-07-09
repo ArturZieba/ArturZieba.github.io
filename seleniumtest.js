@@ -3,6 +3,11 @@ function printToConsole(value)
     console.log(value);
 }
 
+function changeColp0(event)
+{
+    document.getElementById("st-colt0").style.color = event.target.value;
+}
+
 console.log("Hello, seleniumtest!");
 
 document.getElementById('st-b0').onclick = () => printToConsole("Button 1");
