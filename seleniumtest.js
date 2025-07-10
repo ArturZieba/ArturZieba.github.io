@@ -1,9 +1,11 @@
+// Remember to clear cache if changes do not seem to take hold
+
 function printToConsole(value)
 {
     console.log(value);
 }
 
-function changeColp0(event)
+window.changeColp0 = function(event)
 {
     document.getElementById("st-colt0").style.color = event.target.value;
 }
